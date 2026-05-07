@@ -1,0 +1,2 @@
+-- Modelo de script (cópia de backup; ajuste conforme ambiente)
+-- SELECT 1
