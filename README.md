@@ -1,7 +1,9 @@
 #MultiDb Client IDE
+
 A professional-grade, MDI-based SQL development environment and automation engine designed for SQL Server and Oracle. This tool focuses on database engineering, legacy system modernization, and high-performance data operations.
 
 #Key Engineering Features
+
 Unified Multi-Provider Core: Implements a factory pattern (MultiDbProvider) that abstracts connections for both SQL Server (System.Data.SqlClient) and Oracle (Oracle.ManagedDataAccess).
 Integrated SQL Unit Test Engine: A custom-built engine capable of parsing @TEST_PLAN blocks to execute performance metrics and automated validations.
 Safety & Heuristics: Built-in SqlSafetyValidator that prevents the execution of high-risk commands (e.g., DELETE/UPDATE without WHERE).
@@ -9,6 +11,7 @@ Complex Dependency Resolver: Includes a ProcedureDependencyResolver to map and v
 Session & State Resilience: Automatically persists active queries and sessions to JSON, ensuring data recovery after restarts.
 
 #Tech Stack
+
 Framework: .NET Framework 4.7.2 (WinForms MDI Architecture).
 Editor Core: ScintillaNET with custom SQL lexer and SSMS-like styling.
 Data Handling: Dapper-like performance for query execution and result streaming.
